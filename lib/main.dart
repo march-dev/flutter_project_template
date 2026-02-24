@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(FlutterProjectTemplateApp());
+  runApp(const FlutterProjectTemplateApp());
 }
 
 class FlutterProjectTemplateApp extends StatelessWidget {
+  const FlutterProjectTemplateApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
