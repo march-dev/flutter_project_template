@@ -5,21 +5,50 @@ version: 0.0.1+1
 publish_to: 'none'
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: '>=3.5.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
+  flutter_localizations:
     sdk: flutter
 
-  # UI
-  cupertino_icons: ^1.0.5
+  # technical
+  # uuid: ^4.5.2
+  # mutex: ^3.1.0
+  intl: ^0.20.2
+  flinq: ^2.0.2
+  rxdart: ^0.28.0
+  provider: ^6.1.5+1
+
+  # state management
+  mobx: ^2.6.0
+  flutter_mobx: ^2.3.0
+
+  # storage
+  cross_local_storage: ^3.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # system related
+  # url_launcher: ^6.3.2
+  # cross_platform: ^3.0.1
+  # share_plus: ^12.0.1
+  # path_provider: ^2.1.5
+  # file_picker: ^10.3.10
+  # cross_connectivity: ^3.3.0
+
+  # ui
+  # google_fonts: ^8.0.1
+  # flutter_slidable: ^4.0.3
+  # flutter_sticky_header: ^0.8.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+  build_runner: ^2.4.13
+  mobx_codegen: ^2.7.0
+  hive_generator: ^2.0.1
 
 flutter:
   uses-material-design: true
